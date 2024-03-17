@@ -1,0 +1,101 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  /* background-color: black;
+  color: white;
+} */
+
+.formm {
+  position: absolute;
+  top: 30px;
+  /* margin-tp: 20rem; */
+  margin: auto;
+  width: 35%;
+  height: 30rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px gainsboro;
+  position: relative;
+}
+#passw {
+  position: absolute;
+  left: 5.5rem;
+  outline: none;
+  box-shadow: 2px 2px 2px 2px gainsboro;
+  top: 10rem;
+  font-size: 20px;
+  padding-left: 20px;
+  margin: auto;
+  width: 60%;
+  border: none;
+  height: 5rem;
+  background-color: transparent;
+}
+#emailo {
+  padding-left: 20px;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 2px 2px gainsboro;
+  position: absolute;
+  left: 5.5rem;
+  top: 3rem;
+  margin: auto;
+  width: 60%;
+  height: 5rem;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+button {
+  /* display: flex; */
+  /* justify-content: center; */
+  position: absolute;
+  top: 18rem;
+  left: 7.5rem;
+  width: 10rem;
+  height: 4rem;
+  border: none;
+  outline: none;
+  background-color: rgb(255, 149, 10);
+  cursor: pointer;
+  font-size: 23px;
+  color: white;
+  border-radius: 12px;
+}
+/* .frm {
+  width: 70%;
+} */
+/* table {
+  position: absolute;
+  top: 30rem;
+
+}
+td {
+  text-align: center;
+  width: 12rem;
+  height: 3rem;
+} */
+table {
+  position: absolute;
+  top: 35rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  text-align: center;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: coral;
+}
